@@ -1,0 +1,12 @@
+{
+  "name": "express.js-crash-course-traversymedia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dewan Wakil Ahmed",
+  "license": "ISC",
+  "description": "Express.js Crash Course Traversy Media"
+}
