@@ -8,5 +8,8 @@
   "keywords": [],
   "author": "Dewan Wakil Ahmed",
   "license": "ISC",
-  "description": "Express.js Crash Course Traversy Media"
+  "description": "Express.js Crash Course Traversy Media",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
