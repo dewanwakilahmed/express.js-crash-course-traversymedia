@@ -11,7 +11,8 @@
   "license": "ISC",
   "description": "Express.js Crash Course Traversy Media",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
