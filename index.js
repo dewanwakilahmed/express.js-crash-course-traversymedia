@@ -12,6 +12,10 @@ const app = express();
 //   res.sendFile(path.join(__dirname, "public", "index.html"));
 // });
 
+// Body Parser middleware
+app.use(express.json()); // Handle raw JSON
+app.use(express.urlencoded({ extended: false })); // Handle form submission
+
 // Set static folder
 app.use(express.static(path.join(__dirname, "public")));
 
