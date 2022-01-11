@@ -57,6 +57,7 @@ router.put("/:id", (req, res) => {
   }
 });
 
+// Delete Member
 router.delete("/:id", (req, res) => {
   const found = members.some((member) => member.id === parseInt(req.params.id));
   if (found) {
